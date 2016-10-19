@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<comments xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><authors><author>Dominic Woolf</author></authors><commentList><comment ref="F15" authorId="0" shapeId="0"><text><r><rPr><b/><sz val="9"/><color indexed="81"/><rFont val="Tahoma"/><family val="2"/></rPr><t>Dominic Woolf:</t></r><r><rPr><sz val="9"/><color indexed="81"/><rFont val="Tahoma"/><family val="2"/></rPr><t xml:space="preserve">
+NB we use BES fuel revenue, because cost of CCS energy is already included in CCS cost above (including lost revenue from energy due to reduced efficiency)</t></r></text></comment></commentList></comments>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 library(tcltk)
 library(mgcv)
 library(randomForest)
@@ -17,24 +16,4 @@ if(!require("regSmooth")) {
   library(devtools)
   install_github("domwoolf/regSmooth")
   library(regSmooth)
-=======
-library(tcltk)
-library(mgcv)
-library(randomForest)
-library(tools)
-library(Hmisc)
-library(data.table)
-library(ggplot2)
-library(cowplot)
-library(ptw)
-library(MASS)
-library(scales)
-library(grid)
-library(reshape2)
-library(devtools)
-if(!require("regSmooth")) {
-  library(devtools)
-  install_github("domwoolf/regSmooth")
-  library(regSmooth)
->>>>>>> f22ddffdc4b9000d81fcf21ee02fac3fe2f46fb0
   }

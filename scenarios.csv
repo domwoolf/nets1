@@ -1,0 +1,364 @@
+technology,category,parameter,symbol,name,unit,scenario,p.min,p.max,p.mean,p.sd,distribution.code,distribution
+Common,Economic,discount rate,disc_rate,discount,,op_space,0.01500,0.06000,0.03750,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,op_space,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,op_space,1.00000,2.16090,1.58045,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,op_space,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,op_space,1.00000,9740.00000,4870.50000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,op_space,14.60000,201.77920,108.18960,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,op_space,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,op_space,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,op_space,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,op_space,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),op_space,315.97157,1175.98443,745.97800,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,op_space,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,op_space,0.28000,0.45000,0.36500,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,op_space,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,op_space,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,op_space,0.28000,0.45000,0.36500,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,op_space,268.16996,687.07599,477.62297,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,op_space,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,op_space,0.26000,50.78528,25.52264,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,op_space,0.00000,175.61600,87.80800,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,op_space,25.00000,200.00000,112.50000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),op_space,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,op_space,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,op_space,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,op_space,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,op_space,0.00010,0.06000,0.03005,,1,Uniform
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,op_space,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,op_space,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,op_space,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,op_space,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,op_space,87.00853,865.27692,476.14273,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,op_space,0.03200,0.11000,0.07100,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,op_space,0.81000,0.92800,0.86900,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2014,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2014,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2014,1.00000,1.00000,1.00000,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2014,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2014,1.00000,55.00000,28.00000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2014,14.60000,56.30000,35.45000,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2014,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2014,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2015,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2014,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2014,470.39377,1175.98443,823.18910,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2014,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2014,0.28000,0.40000,0.34000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2014,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,2014,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2014,0.28000,0.40000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2014,294.46114,687.07599,490.76856,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2014,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2014,0.26000,14.17000,7.21500,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2014,0.00000,49.00000,24.50000,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2014,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2014,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2014,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2014,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2014,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2014,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2014,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2014,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2014,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2014,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2014,108.76067,865.27692,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2014,0.04000,0.11000,.08,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2014,0.81000,0.91000,0.86000,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2020_RCP430,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2020_RCP431,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2020_RCP432,1.05000,1.10250,1.07625,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2020_RCP433,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2020_RCP434,143.00000,249.00000,202.00000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2020_RCP435,16.35200,63.05600,39.70400,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2020_RCP436,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2020_RCP437,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2020_RCP438,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2020_RCP438,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2020_RCP439,401.76168,1129.31838,765.54003,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2020_RCP440,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2020_RCP441,0.30000,0.42000,0.36000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2020_RCP442,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,#NAME?,2020_RCP443,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2020_RCP444,0.30000,0.42000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2020_RCP445,294.46114,687.07599,490.76856,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2020_RCP446,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2020_RCP447,0.29120,15.87040,8.08080,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2020_RCP448,0.00000,54.88000,27.44000,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2020_RCP449,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2020_RCP450,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2020_RCP451,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2020_RCP452,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2020_RCP453,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2020_RCP454,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2020_RCP455,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2020_RCP456,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2020_RCP457,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2020_RCP458,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2020_RCP459,108.76067,865.27692,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2020_RCP460,0.04000,0.11000,0.07500,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2020_RCP461,0.81000,0.91000,0.86000,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2050_RCP430,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2050_RCP430,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2050_RCP430,1.10119,1.49940,1.30029,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2050_RCP430,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2050_RCP430,473.00000,1085.00000,800.00000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2050_RCP430,26.16320,100.88960,63.52640,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2050_RCP430,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2050_RCP430,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2050_RCP431,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2050_RCP430,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2050_RCP430,315.97157,1070.98582,693.47870,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2050_RCP430,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2050_RCP430,0.33000,0.45000,0.39000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2050_RCP430,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,2050_RCP430,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2050_RCP430,0.33000,0.45000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2050_RCP430,268.16996,461.52074,364.84535,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2050_RCP430,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2050_RCP430,0.46592,25.39264,12.92928,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2050_RCP430,0.00000,87.80800,43.90400,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2050_RCP430,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2050_RCP430,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2050_RCP430,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2050_RCP430,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2050_RCP430,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2050_RCP430,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2050_RCP430,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2050_RCP430,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2050_RCP430,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2050_RCP430,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2050_RCP430,100.60362,800.38115,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2050_RCP430,0.04000,0.10000,0.07000,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2050_RCP430,0.82000,0.92000,0.87000,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2100_RCP430,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2100_RCP430,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2100_RCP430,1.18650,2.16090,1.67370,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2100_RCP430,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2100_RCP430,3460.00000,9740.00000,5590.00000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2100_RCP430,52.32640,201.77920,127.05280,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2100_RCP430,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2100_RCP430,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2100_RCP431,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2100_RCP430,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2100_RCP430,315.97157,1070.98582,693.47870,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2100_RCP430,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2100_RCP430,0.33000,0.45000,0.39000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2100_RCP430,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,2100_RCP430,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2100_RCP430,0.33000,0.45000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2100_RCP430,268.16996,461.52074,364.84535,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2100_RCP430,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2100_RCP430,0.93184,50.78528,25.85856,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2100_RCP430,0.00000,175.61600,87.80800,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2100_RCP430,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2100_RCP430,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2100_RCP430,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2100_RCP430,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2100_RCP430,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2100_RCP430,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2100_RCP430,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2100_RCP430,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2100_RCP430,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2100_RCP430,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2100_RCP430,87.00853,692.22154,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2100_RCP430,0.03000,0.09000,0.06000,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2100_RCP430,0.85000,0.93000,0.89000,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2020_RCP530,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2020_RCP530,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2020_RCP530,1.05000,1.10250,1.07625,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2020_RCP530,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2020_RCP530,51.00000,143.00000,97.00000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2020_RCP530,16.35200,63.05600,39.70400,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2020_RCP530,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2020_RCP530,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2020_RCP531,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2020_RCP530,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2020_RCP530,401.76168,1129.31838,765.54003,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2020_RCP530,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2020_RCP530,0.30000,0.42000,0.36000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2020_RCP530,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,2020_RCP530,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2020_RCP530,0.30000,0.42000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2020_RCP530,294.46114,687.07599,490.76856,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2020_RCP530,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2020_RCP530,0.29120,15.87040,8.08080,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2020_RCP530,0.00000,54.88000,27.44000,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2020_RCP530,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2020_RCP530,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2020_RCP530,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2020_RCP530,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2020_RCP530,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2020_RCP530,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2020_RCP530,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2020_RCP530,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2020_RCP530,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2020_RCP530,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2020_RCP530,108.76067,865.27692,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2020_RCP530,0.04000,0.11000,0.07500,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2020_RCP530,0.81000,0.91000,0.86000,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2050_RCP530,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2050_RCP530,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2050_RCP530,1.10119,1.49940,1.30029,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2050_RCP530,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2050_RCP530,271.00000,748.00000,509.50000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2050_RCP530,26.16320,100.88960,63.52640,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2050_RCP530,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2050_RCP530,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2050_RCP531,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2050_RCP530,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2050_RCP530,315.97157,1070.98582,693.47870,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2050_RCP530,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2050_RCP530,0.33000,0.45000,0.39000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2050_RCP530,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,2050_RCP530,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2050_RCP530,0.33000,0.45000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2050_RCP530,268.16996,461.52074,364.84535,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2050_RCP530,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2050_RCP530,0.46592,25.39264,12.92928,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2050_RCP530,0.00000,87.80800,43.90400,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2050_RCP530,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2050_RCP530,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2050_RCP530,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2050_RCP530,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2050_RCP530,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2050_RCP530,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2050_RCP530,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2050_RCP530,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2050_RCP530,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2050_RCP530,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2050_RCP530,100.60362,800.38115,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2050_RCP530,0.03700,0.10175,0.06938,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2050_RCP530,0.82425,0.91675,0.87050,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2100_RCP530,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2100_RCP530,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2100_RCP530,1.18650,2.16090,1.67370,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2100_RCP530,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2100_RCP530,788.00000,5306.00000,3047.00000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2100_RCP530,52.32640,201.77920,127.05280,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2100_RCP530,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2100_RCP530,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2100_RCP531,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2100_RCP530,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2100_RCP530,315.97157,1070.98582,693.47870,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2100_RCP530,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2100_RCP530,0.33000,0.45000,0.39000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2100_RCP530,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,2100_RCP530,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2100_RCP530,0.33000,0.45000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2100_RCP530,268.16996,461.52074,364.84535,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2100_RCP530,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2100_RCP530,0.93184,50.78528,25.85856,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2100_RCP530,0.00000,175.61600,87.80800,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2100_RCP530,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2100_RCP530,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2100_RCP530,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2100_RCP530,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2100_RCP530,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2100_RCP530,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2100_RCP530,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2100_RCP530,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2100_RCP530,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2100_RCP530,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2100_RCP530,87.00853,692.22154,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2100_RCP530,0.03200,0.08800,0.06000,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2100_RCP530,0.84800,0.92800,0.88800,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2020_RCP650,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2020_RCP650,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2020_RCP650,1.05000,1.10250,1.07625,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2020_RCP650,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2020_RCP650,37.00000,40.00000,38.50000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2020_RCP650,16.35200,63.05600,39.70400,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2020_RCP650,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2020_RCP650,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2020_RCP651,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2020_RCP650,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2020_RCP650,401.76168,1129.31838,765.54003,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2020_RCP650,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2020_RCP650,0.30000,0.42000,0.36000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2020_RCP650,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,2020_RCP650,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2020_RCP650,0.30000,0.42000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2020_RCP650,294.46114,687.07599,490.76856,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2020_RCP650,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2020_RCP650,0.29120,15.87040,8.08080,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2020_RCP650,0.00000,54.88000,27.44000,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2020_RCP650,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2020_RCP650,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2020_RCP650,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2020_RCP650,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2020_RCP650,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2020_RCP650,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2020_RCP650,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2020_RCP650,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2020_RCP650,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2020_RCP650,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2020_RCP650,108.76067,865.27692,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2020_RCP650,0.04000,0.11000,0.07500,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2020_RCP650,0.81000,0.91000,0.86000,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2050_RCP650,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2050_RCP650,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2050_RCP650,1.10119,1.49940,1.30029,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2050_RCP650,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2050_RCP650,165.00000,183.00000,174.00000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2050_RCP650,26.16320,100.88960,63.52640,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2050_RCP650,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2050_RCP650,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2050_RCP651,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2050_RCP650,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2050_RCP650,315.97157,1070.98582,693.47870,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2050_RCP650,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2050_RCP650,0.33000,0.45000,0.39000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2050_RCP650,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,2050_RCP650,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2050_RCP650,0.33000,0.45000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2050_RCP650,268.16996,461.52074,364.84535,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2050_RCP650,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2050_RCP650,0.46592,25.39264,12.92928,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2050_RCP650,0.00000,87.80800,43.90400,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2050_RCP650,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2050_RCP650,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2050_RCP650,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2050_RCP650,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2050_RCP650,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2050_RCP650,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2050_RCP650,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2050_RCP650,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2050_RCP650,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2050_RCP650,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2050_RCP650,100.60362,800.38115,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2050_RCP650,0.03700,0.10175,0.06938,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2050_RCP650,0.82425,0.91675,0.87050,,1,Uniform
+Common,Economic,discount rate,disc_rate,discount,,2100_RCP650,0.01500,0.06000,0.03000,,1,Uniform
+Common,Economic,biomass ash content,bm_ash,bm_ash,,2100_RCP650,0.00200,0.10800,0.05500,,1,Uniform
+Common,Economic,crop price increase,crop_price_increase,crop_price_increase,,2100_RCP650,1.18650,2.16090,1.67370,,1,Uniform
+Common,Economic,aglime price,lime_price,aglime_price,$/Mg,2100_RCP650,10.00000,80.00000,45.00000,,1,Uniform
+Common,Economic,carbon price,c_price,c_price,$/Mg,2100_RCP650,1335.00000,2017.00000,1676.00000,,3,Log
+Common,Economic,electricity price,elec_price,elec_price,$/GJ,2100_RCP650,52.32640,201.77920,127.05280,,1,Uniform
+Common,Economic,rebound factor,rebound,rebound,,2100_RCP650,1.00000,1.00000,1.00000,,1,Uniform
+Reference (FF),Economic,C intensity,c_intensity,ff_c_intensity,Mg C / GJf,2100_RCP650,0.00000,0.01555,0.00777,,1,Uniform
+Reference (FF),Economic,Electric C intensity,c_intensity_e,ffe_c_intensity,Mg C / Gje,2100_RCP651,0.00000,0.06818,0.03409,,1,Uniform
+Reference (FF),Economic,FF elec efficiency,ff_eff,ff_eff,,2100_RCP650,0.38000,0.50000,0.44000,,1,Uniform
+BES,Economic,capital cost,bes_cc,bes_cc,$/(Mg f/yr),2100_RCP650,315.97157,1070.98582,693.47870,,1,Uniform
+BES,Economic,life time of plant,bes_life,bes_life,yr,2100_RCP650,25.00000,50.00000,37.50000,,1,Uniform
+BES,Energy,conversion efficiency,bes_eff,bes_energy_efficiency,GJ / GJ f,2100_RCP650,0.33000,0.45000,0.39000,,1,Uniform
+BEBCS,Pyrolysis,Pyro temp,py_temp,py_temp,deg C,2100_RCP650,450.00000,650.00000,550.00000,,1,Uniform
+BEBCS,Pyrolysis,heat source code,py_e_source,py_e_source,,2100_RCP650,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Energy,electricity gen efficiency,py_elec_eff,py_elec_eff,,2100_RCP650,0.33000,0.45000,0.45000,,1,Uniform
+BEBCS,Economic,capital cost,bebcs_cc,bebcs_cc,,2100_RCP650,268.16996,461.52074,364.84535,,1,Uniform
+BEBCS,Economic,life time of plant ratio to BES,bebcstobe_life_ratio,bebcs_life_ratio,,2100_RCP650,1.00000,1.00000,1.00000,,1,Uniform
+BEBCS,Economic,biochar haulage cost,bc_haul_cost,bc_haul_cost,$/Mg f,2100_RCP650,0.93184,50.78528,25.85856,,1,Uniform
+BEBCS,Economic,biochar field operations,bc_field_cost,bc_field_cost,$/ha,2100_RCP650,0.00000,175.61600,87.80800,,1,Uniform
+BEBCS,GHG feedbacks,unamended N additions,n_app_rate,n_app_rate,kg/ha/yr,2100_RCP650,25.00000,200.00000,100.00000,,1,Uniform
+BEBCS,GHG feedbacks,N2O feedback factor,n2o_factor,n2o_factor,%n2o / (Mg/ha),2100_RCP650,0.00171,0.01538,0.00855,,1,Uniform
+BEBCS,GHG feedbacks,years of N2O effect,n2o_years,n2o_years,yr,2100_RCP650,1.00000,100.00000,50.50000,,3,Log
+BEBCS,GHG feedbacks,SOC feedback factor,soc_factor,priming_factor,,2100_RCP650,-0.03000,0.30000,0.13500,,1,Uniform
+BEBCS,GHG feedbacks,biochar haulage CO2,bc_haul_co2,bc_haul_c,Mg C / Mgf,2100_RCP650,0.00002,0.00139,0.00071,,1,Uniform
+BEBCS,Soil,SOC,soc,soc,%,2100_RCP650,0.00010,0.06000,0.03005,,3,Log
+BEBCS,Soil,application rate,app_rate,bc_app_rate,Mg/ha,2100_RCP650,5.00000,30.00000,17.50000,,1,Uniform
+BEBCS,Soil,biochar nutrient vlaue,bc_nutrient,bc_nutrient_value,$/Mg f,2100_RCP650,0.00000,16.49413,8.24707,,1,Uniform
+BEBCS,Soil,biochar grain yield impact ,bc_yield_impact,bc_yield_value,$ / yr / Mg bc,2100_RCP650,0.00000,62.79000,31.39500,,1,Uniform
+BEBCS,Soil,stability factor,bc_stab_fact,bc_stab_factor,,2100_RCP650,,,4.89000,1.80000,2,Normal
+BECCS,Economic,cost of ccs,ccs_cost,ccs_cc,$/Mg C captured,2100_RCP650,87.00853,692.22154,487.01879,,1,Uniform
+BECCS,Economic,efficiency penalty (rel BES),beccs_eff_penalty,beccs_eff_penalty,,2100_RCP650,0.03200,0.08800,0.06000,,1,Uniform
+BECCS,Economic,CO2 sequestration fraction,beccs_seq_fraction,beccs_seq_fraction,,2100_RCP650,0.84800,0.92800,0.88800,,1,Uniform
